@@ -1,0 +1,40 @@
+@media (max-width: 710px) {
+    #tittle {
+        font-size: 50px;
+    }
+    #promo-section {
+        gap: 10px;
+    }
+    .promo-foto-pizza {
+        width: 200px;
+    }
+    .promo-item {
+        height: 520px;
+    }
+}
+@media (max-width: 480px) {
+    #tittle {
+        font-size: 40px;
+    }
+    #promo-section {
+        margin-top: 20px;
+    }
+    .promo-foto-pizza {
+        border-radius: 50px 5px 50px 5px;
+    }
+    .promo-item {
+        width: 100%;
+        height: auto;
+        border-bottom: 3px solid red;
+        border-radius: 50px 5px 50px 5px;
+        margin: 0px 10px;
+    }
+    .promo-item p {
+        text-align: center;
+    }
+    .promo-preco {
+        position: relative;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}

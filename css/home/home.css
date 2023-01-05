@@ -1,0 +1,27 @@
+.item-pizzas {
+    font-family: 'lobster';
+    display: flex;
+    gap: 10px;
+    position: relative;
+    text-shadow: 2px 2px 4px #0000007c;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-left: 3px solid #af1e1e;
+    border-bottom: 3px solid rgb(148, 143, 143);
+}
+.item-pizzas-foto {
+    width: 280px;
+    margin-left: 10px;
+}
+.item-pizzas-texto {
+    font-size: 20px;
+    color: #6b0e0e;
+}
+.item-pizzas-texto h3 {
+    position: absolute;
+    bottom: 10px;
+}
+#section-info-pizzas {
+    display: none;
+}

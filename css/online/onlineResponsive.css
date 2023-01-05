@@ -1,0 +1,40 @@
+@media (max-width: 560px) {
+    #online-tittle {
+        font-size: 35px;
+        width: 330px;
+        text-align: center;
+    }
+    form {
+        font-size: 20px;
+        width: 330px;
+    }
+    select {
+        width: 135px;
+        text-align: center;
+    }
+    form input {
+        width: 135px;
+    }
+    .online-item-form {
+        gap: 20px;
+    }
+}
+@media (max-width: 375px) {
+    #online-tittle {
+        font-size: 30px;
+        width: 300px;
+    }
+    form {
+        font-size: 16px;
+        width: 300px;
+    }
+    form input {
+        width: 120px;
+    }
+    select {
+        width: 120px;
+    }
+    textarea {
+        width: 80%;
+    }
+}

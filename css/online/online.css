@@ -1,0 +1,53 @@
+#online-tittle {
+    background-color: red;
+    font-size: 55px;
+    font-weight: normal;
+    margin: auto;
+    text-shadow: 2px 2px 3px #00000080;
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px 20px;
+    font-family: 'lobster';
+}
+
+form {
+    background-color: #ceeca6;
+    font-size: 35px;
+    margin: auto;
+    width: auto;
+    padding: 15px 20px;
+    text-shadow: 1px 1px 2px #00000069;
+}
+form p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+form > p {
+    align-items: center;
+}
+form input {
+    width: 200px;
+    padding: 3px;
+}
+textarea {
+    padding: 5px;
+    font-size: 16px;
+}
+#button {
+    font-size: 16px;
+    margin: 10px auto 0px auto;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 3px 8px;
+    width: max-content;
+    background-color: white;
+}
+#button:active {
+    background-color: #ddd8d8;
+}
+.online-item-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
