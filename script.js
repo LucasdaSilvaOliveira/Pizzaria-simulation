@@ -5,31 +5,31 @@ const pedirOnline = document.getElementById('pedir-online')
 const sobreNos = document.getElementById('sobre-nós')
 
 
-fetch('../pag/home/index.html').then(resp => resp.text())
+fetch('../static/home/index.html').then(resp => resp.text())
         .then(pag => {
             divPizzas.innerHTML = pag
 
         })
 home.addEventListener('click', () => {
-    fetch('../pag/home/index.html').then(resp => resp.text())
+    fetch('../static/home/index.html').then(resp => resp.text())
         .then(pag => {
             divPizzas.innerHTML = pag
         })
 })
 promo.addEventListener('click', () => {
-    fetch('../pag/promocoes/index.html').then(resp => resp.text())
+    fetch('../static/promocoes/index.html').then(resp => resp.text())
         .then(pag => {
             divPizzas.innerHTML = pag
         })
 })
 pedirOnline.addEventListener('click', () => {
-    fetch('../pag/pedirOnline/index.html').then(resp => resp.text())
+    fetch('../static/pedirOnline/index.html').then(resp => resp.text())
         .then(pag => {
             divPizzas.innerHTML = pag
         })
 })
 sobreNos.addEventListener('click', () => {
-    fetch('../pag/sobrenos/index.html').then(resp => resp.text())
+    fetch('../static/sobrenos/index.html').then(resp => resp.text())
         .then(pag => {
             divPizzas.innerHTML = pag
         })
