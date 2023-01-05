@@ -5,7 +5,7 @@ const pedirOnline = document.getElementById('pedir-online')
 const sobreNos = document.getElementById('sobre-nós')
 
 
-fetch('../static/home/index.html').then(resp => resp.text())
+fetch('../static/index.html').then(resp => resp.text())
         .then(pag => {
             divPizzas.innerHTML = pag
 
